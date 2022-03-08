@@ -11,8 +11,10 @@ body {
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
+    background-color: grey;
+    width: 100%;
   }
-  
+
   .jumbotron {
     text-align: center;
     background-color: transparent;
@@ -28,6 +30,11 @@ body {
   .time-block {
     text-align: center;
     border-radius: 15px;
+  }
+
+  .time-block div {
+    margin: 0;
+    padding: 0;
   }
   
   .row {
@@ -63,8 +70,9 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06aed5;
     color: white;
+    padding: 20px 25px;
   }
-  
+
   .saveBtn i:hover {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
