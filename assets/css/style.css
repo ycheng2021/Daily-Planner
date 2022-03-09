@@ -4,7 +4,7 @@ body {
     line-height: 1;
     padding-bottom: 50px;
   }
-  
+
   textarea {
     background: transparent;
     border: none;
@@ -40,8 +40,14 @@ body {
   .time {
     display: flex;
     align-items: center;
-    border-top: 1px solid black; 
+    border-top: 1px solid black;
+    margin: 0;
   }
+
+  .last-time {
+    border-bottom: 1px solid black; 
+  }
+
   .row {
     white-space: pre-wrap;
     height: 80px;
@@ -69,13 +75,19 @@ body {
     color: white;
   }
   
+  .center {
+    display: block !important;
+    justify-content: center;
+    align-items: center;
+  }
+
   .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06aed5;
     color: white;
-    padding: 30px;
+    padding: 15px;
   }
 
   .saveBtn i:hover {
