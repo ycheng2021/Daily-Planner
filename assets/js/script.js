@@ -6,7 +6,7 @@ let currentTD = $('#currentDay');
 // function to update the current time per second
 function updateTime() {
     let today = moment();
-    currentTD.text(today.format('dddd, MMMM Do YYYY, h:mm:ss a'));
+    currentTD.text(today.format('dddd, MMMM Do YYYY'));
 }
 
 setInterval(updateTime, 1000);
@@ -20,9 +20,9 @@ for (let j=0; j< textSlots.length; j++) {
     // checking if this logs current hour + am/pm
     // console.log(currentTime)
     let compareTime = moment($('.time' + j).text())
-    if (moment(compareTime._i).isBefore()) {
+    if (moment(compareTime._i).isBefore(currentTime)) {
         $('.text' + j).addClass('past')
-    } else if (moment(compareTime._i).isAfter()) {
+    } else if (moment(compareTime._i).isAfter(currentTime)) {
         $('.text' + j).addClass('future')
     } else {
         $('.text' + j).addClass('present')
