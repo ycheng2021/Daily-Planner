@@ -100,7 +100,3 @@
     font-size: 30px;
   }
 
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all 0.3s ease-in-out;
-  }

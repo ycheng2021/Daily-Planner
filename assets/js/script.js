@@ -29,9 +29,7 @@ for (let j=0; j< textSlots.length; j++) {
     } else {
         $('.text' + j).addClass('future')
     }
-    console.log(compareTime + "<" + currentTime)
 }
-
 
 // checking if this gives me number of time-blocks
 // console.log(textSlots.length)
