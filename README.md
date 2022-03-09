@@ -8,4 +8,9 @@ HTML, CSS, and javascript were used to generate the app. Local storage is also u
 Users will not only be able to store their plans for the day but will also be able to check off tasks that were finished and mark others with special comments, such as "to do" and "working on". This will help the user to be more aware of their current progress.
 
 ## Links
+
+https://github.com/ycheng2021/Daily-planner
+
+https://ycheng2021.github.io/Daily-planner/
+
 ![screenshot](./assets/images/Daily-planner.png)
