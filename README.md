@@ -1,5 +1,5 @@
-# Daily-planner
-Daily planner is a simple calendar app that allows users to plan out daily events and tasks in order to stay organized. The time slots and color coding on the past, present, and future time slots allows users to stay efficient when planning during the day. 
+# Daily-Planner
+Daily Planner is a simple calendar app that allows users to plan out daily events and tasks in order to stay organized. The time slots and color coding on the past, present, and future time slots allows users to stay efficient when planning during the day. 
 
 ## Technologies Used
 HTML, CSS, and javascript were used to generate the app. Local storage is also used so that even when webpage is refreshed the saved tasks still remain.
