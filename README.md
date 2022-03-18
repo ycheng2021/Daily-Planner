@@ -9,8 +9,8 @@ Users will not only be able to store their plans for the day but will also be ab
 
 ## Links
 
-https://github.com/ycheng2021/Daily-planner
+https://github.com/ycheng2021/Daily-Planner
 
-https://ycheng2021.github.io/Daily-planner/
+https://ycheng2021.github.io/Daily-Planner/
 
 ![screenshot](./assets/images/Daily-planner.png)
